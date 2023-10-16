@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "rootDir": "src",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "baseUrl": "src",
+        "paths": {
+            "~config": [
+                "config"
+            ],
+            "~middlewares/*": [
+                "middlewares/*"
+            ],
+            "~routes/*": [
+                "routes/*"
+            ],
+            "~routes": [
+                "routes"
+            ],
+            "~controllers/*": [
+                "controllers/*"
+            ],
+            "~models/*": [
+                "models/*"
+            ],
+            "~services/*": [
+                "services/*"
+            ],
+            "~lib/*": [
+                "lib/*"
+            ],
+            "~entities/*": [
+                "entities/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+}
